@@ -18,6 +18,10 @@ app.use("/api/auth",authRoutes);
 app.use("/api/todos",todoRoutes);
 
 
+app.get("/", (req, res) => {
+  res.send("Backend running successfully 🚀");
+});
+
 app.listen(PORT, () => {
   console.log(`Server Started ✔️ ${PORT}`);
 });
