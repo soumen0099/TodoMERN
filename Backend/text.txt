@@ -1,0 +1,29 @@
+1 User Authentication APIs (optional but professional apps me hota hai)
+Register User
+POST /api/auth/register
+➡️ Naya user account create karega.
+Login User
+POST /api/auth/login
+➡️ User login karega aur token milega (JWT).
+Get Current User
+GET /api/auth/me
+➡️ Login user ki details laane ke liye.
+2️⃣ Todo APIs (main functionality)
+Create Todo
+POST /api/todos
+➡️ Naya todo add karne ke liye.
+Get All Todos
+GET /api/todos
+➡️ Saare todos fetch karega.
+Get Single Todo
+GET /api/todos/:id
+➡️ Ek specific todo ki details.
+Update Todo
+PUT /api/todos/:id
+➡️ Todo edit karne ke liye (title change etc).
+Mark Todo Complete
+PATCH /api/todos/:id/complete
+➡️ Todo complete ya incomplete mark karne ke liye.
+Delete Todo
+DELETE /api/todos/:id
+➡️ Todo delete karega.
